@@ -50,10 +50,58 @@ body{
 
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .container{
     margin: 0 auto;
     max-width: 960px;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.head{
+    background: #111111;
+    margin: 0 auto;
+    min-height: 100px;
+    max-width: 960px;
+}
+
+.head .logo{
+    float: left;
+    width: 250px;
+    height: 40px;
+    margin: 40px 0 0 30px;
+}
+
+.head .info{
+    float: right;
+    font-family: 'gotham_htfmedium';
+    color: #ffffff;
+    margin: 45px 40px 0 0;
+}
+
+.head .info a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.head .info .mail,  .head .info .phone{
+    padding: 0 0 0 30px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.head .info .mail{
+    background: url("../images/icon-mail.png") no-repeat top left;
+}
+
+.head .info .phone {
+
+    background: url("../images/icon-phone.png") no-repeat top left;
 }
 
 
@@ -62,6 +110,17 @@ body{
  * -----------------------------------------------------------------------------
  */
 
-.block{
+.block1{
+    width: 100%;
+    height: 1348px;
+    background: url("../images/block1.jpg") no-repeat top center;
+}
 
+/**
+ * Footer
+ * -----------------------------------------------------------------------------
+ */
+
+.footer{
+    background: #000000;
 }
