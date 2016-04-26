@@ -37,6 +37,18 @@ body{
 
 }
 
+@font-face {
+    font-family: 'gotham_htfbook';
+    src: url('../fonts/gothht01-webfont.eot');
+    src: url('../fonts/gothht01-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothht01-webfont.woff') format('woff'),
+    url('../fonts/gothht01-webfont.ttf') format('truetype'),
+    url('../fonts/gothht01-webfont.svg#gotham_htfbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'edo_szregular';
@@ -115,6 +127,81 @@ body{
     height: 1348px;
     background: url("../images/block1.jpg") no-repeat top center;
 }
+
+
+/**
+ * Block 2
+ * -----------------------------------------------------------------------------
+ */
+
+.block2{
+    width: 100%;
+    height: 1348px;
+    background: url("../images/block2.jpg") no-repeat top center;
+}
+
+.block2 .title{
+
+}
+
+.block2 .list{
+
+}
+
+.block2 .list .item{
+
+}
+
+.block2 .list .item .icon {
+    display: inline-block;
+}
+
+.block2 .list .item .txt{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'gotham_htfmedium';
+    color: #ffffff;
+}
+
+
+.block2 .subtitle{
+    text-align: center;
+    font-family: 'edo_szregular';
+    font-size: 80px;
+    color: #ff7200;
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke-color: black;
+}
+
+.block2 .subtitle span{
+    color: #ea0c0b;
+}
+
+/**
+ * Block 3
+ * -----------------------------------------------------------------------------
+ */
+
+.block3{
+    width: 100%;
+    height: 1348px;
+    background: url("../images/block3.jpg") no-repeat top center;
+}
+
+
+/**
+ * Block 4
+ * -----------------------------------------------------------------------------
+ */
+
+.block4{
+    width: 100%;
+    height: 1056px;
+    background: url("../images/block4.jpg") no-repeat top center;
+}
+
+
+
 
 /**
  * Footer
