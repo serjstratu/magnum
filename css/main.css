@@ -3,6 +3,61 @@ body{
 }
 
 /**
+ * Base styles
+ * -----------------------------------------------------------------------------
+ */
+
+
+/**
+ * Fonts
+ * -----------------------------------------------------------------------------
+ */
+
+@font-face {
+    font-family: 'gotham_htfmedium';
+    src: url('../fonts/gothhtfm-webfont.eot');
+    src: url('../fonts/gothhtfm-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothhtfm-webfont.woff') format('woff'),
+    url('../fonts/gothhtfm-webfont.ttf') format('truetype'),
+    url('../fonts/gothhtfm-webfont.svg#gotham_htfmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gotham_htfbold';
+    src: url('../fonts/gothhtfb-webfont.eot');
+    src: url('../fonts/gothhtfb-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothhtfb-webfont.woff') format('woff'),
+    url('../fonts/gothhtfb-webfont.ttf') format('truetype'),
+    url('../fonts/gothhtfb-webfont.svg#gotham_htfbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'edo_szregular';
+    src: url('../fonts/edosz-webfont.eot');
+    src: url('../fonts/edosz-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/edosz-webfont.woff') format('woff'),
+    url('../fonts/edosz-webfont.ttf') format('truetype'),
+    url('../fonts/edosz-webfont.svg#edo_szregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+/**
  * Block 1
  * -----------------------------------------------------------------------------
  */
