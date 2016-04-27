@@ -138,7 +138,9 @@ body{
     background: url("../images/block1.jpg") no-repeat top center;
 }
 
-.block1 .left-side{}
+.block1 .left-side{
+	float: left;
+}
 
 .block1 .left-side .title{
     padding: 70px 0 0 0;
@@ -146,7 +148,17 @@ body{
     color: #ffffff;
 }
 
-.block1 .right-side{}
+.block1 .right-side{
+	float: left;
+}
+
+.block1 .right-side .title{
+	font-family: 'gotham_htfbold';
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
 
 
 /**
@@ -298,6 +310,82 @@ body{
     font-size: 24px;
 }
 
+
+/**
+ * Block 5
+ * -----------------------------------------------------------------------------
+ */
+ 
+.block5{
+	width: 100%;
+}
+
+.block5 .title{
+	font-family: 'gotham_htfbold';
+	font-size: 122px;
+	line-height: 85px;
+	text-align: center;
+	color: #ffffff;
+	padding: 100px 0 0 0;
+}
+
+.block5 .title span{
+	color: #000000;
+}
+
+.block5 .title strong{
+	display: inline-block;
+	background: #ea0c0b;
+}
+
+/**
+ * Block 6
+ * -----------------------------------------------------------------------------
+ */
+ 
+.block6{
+	width: 100%;
+}
+
+/**
+ * Block 8
+ * -----------------------------------------------------------------------------
+ */
+ 
+.block8{
+	width: 100%;
+}
+
+.block8 .list{
+}
+
+.block8 .list .item{
+	width: 476px;
+	display: inline-block;
+}
+
+.block8 .list .item .icon{
+	float: left;
+	text-align: center;
+}
+
+.block8 .list .item .txt{
+	float: left;
+	width: 250px;
+}
+
+.block8 .list .item .txt h3{
+	color: #ff7300;
+	font-size: 35px;
+	font-family: 'gotham_htfmedium';
+}
+
+.block8 .list .item .txt p{
+	color: #ffffff;
+	font-size: 25px;
+	line-height:45px;
+	font-family: 'gotham_htfbook';
+}
 
 /**
  * Promo
