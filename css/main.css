@@ -407,37 +407,73 @@ body{
  
 .block8{
 	width: 100%;
+    height: 1205px;
+    background: url("../images/block8.jpg") no-repeat top center;
+}
+
+.block8 .title{
+    font-family: 'gotham_htfbold';
+    font-size: 124px;
+    line-height: 85px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    position: relative;
+    top:-50px;
+}
+
+.block8 .title span{
+    display: inline-block;
+    color: #000000;
+    font-size: 130px;
+    line-height: 90px;
+    background: #da8103;
+    background: -moz-linear-gradient(left, #da8103 0%, #da8103 0%, #ffeda3 50%, #da8103 99%);
+    background: -webkit-linear-gradient(left, #da8103 0%,#da8103 0%,#ffeda3 50%,#da8103 99%);
+    background: linear-gradient(to right, #da8103 0%,#da8103 0%,#ffeda3 50%,#da8103 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#da8103',GradientType=1 );
+
 }
 
 .block8 .list{
+    width: 100%;
+    margin: 80px 0 0 0;
 }
 
 .block8 .list .item{
-	width: 476px;
-	display: inline-block;
+    width: 476px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 70px;
 }
 
 .block8 .list .item .icon{
-	float: left;
-	text-align: center;
+    text-align: center;
+    width: 150px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .block8 .list .item .txt{
-	float: left;
-	width: 250px;
+    width: 320px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .block8 .list .item .txt h3{
 	color: #ff7300;
 	font-size: 35px;
     font-family: 'gotham_htfbook';
+    margin: 0 0 16px 0;
 }
 
 .block8 .list .item .txt p{
 	color: #ffffff;
 	font-size: 25px;
-	line-height:45px;
+	line-height:30px;
     font-family: 'gotham_htfmedium';
+    margin: 0;
 
 }
 
