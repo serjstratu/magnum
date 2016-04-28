@@ -772,11 +772,65 @@ body{
 
 .footer{
     width: 100%;
-    height: 305px;
+	padding: 80px 0 0 0;
 }
 
 .footer .left-side{
 	float: left;
+}
+
+.footer .left-side .phone{
+	float: left;
+	font-size: 15px;
+	color: #ffffff;
+	font-family: 'gotham_htfmedium';
+	margin: 0 20px 0 0;
+}
+
+.footer .left-side .icons{
+	float: left;
+}
+
+.footer .left-side .icons a{
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.footer .left-side .icons .mail{
+	background: url('../images/footer-icons-sprite.png') no-repeat 0 0;
+	width: 24px;
+	height: 20px;	
+}
+
+.footer .left-side .icons .mail:hover{
+	background: url('../images/footer-icons-sprite.png') no-repeat 0 -24px;
+}
+
+.footer .left-side .icons .vk{
+	background: url('../images/footer-icons-sprite.png') no-repeat -54px 0;
+	width: 20px;
+	height: 20px;
+}
+
+.footer .left-side .icons .vk:hover{
+	background: url('../images/footer-icons-sprite.png') no-repeat -54px -24px;
+}
+
+.footer .left-side .icons .fb{
+	background: url('../images/footer-icons-sprite.png') no-repeat -106px 0;
+	width: 10px;
+	height: 20px;
+}
+
+.footer .left-side .icons .fb:hover{
+	background: url('../images/footer-icons-sprite.png') no-repeat -106px -24px;
+}
+
+.footer .left-side .copy{
+	color: #646464;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 25px 0 0 0;
 }
 
 .footer .right-side{
