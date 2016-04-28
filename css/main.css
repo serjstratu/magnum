@@ -31,7 +31,7 @@ a img{
  * -----------------------------------------------------------------------------
  */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,600italic,400italic);
 
 @font-face {
     font-family: 'gotham_htfmedium';
@@ -370,6 +370,42 @@ body{
     background: url("../images/block6.jpg") no-repeat top center;
 }
 
+.block6 .box{
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: 800px;
+	background: #000000 url("../images/box-gun.jpg") no-repeat top center;
+	border: 20px solid #ffffff;
+	border-radius: 10px;	
+}
+
+.block6 .box .boxtitle{
+	font-family: 'gotham_htfbold';
+	font-size: 120px;
+	line-height: 80px;
+	color: #ffffff;
+}
+
+.block6 .box .boxtitle span{
+	display: inline-block;
+	background: #ea0c0b;
+}
+
+.block6 .box  .list{
+	width: 100%;
+}
+
+.block6 .box  .item{
+	width: 280px;
+	float: left;
+	font-family: 'gotham_htfmedium';
+	font-size: 24px;
+	padding: 0 0 0 50px;
+	margin: 0 0 0 50px;
+	color: #ffffff;
+	background: url("../images/target.png") no-repeat center left;
+}
+
 /**
  * Block 7
  * -----------------------------------------------------------------------------
@@ -644,6 +680,18 @@ body{
     float: left;
     width: 400px;
     min-height: 144px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.block9 .block-txt .green-text p{
+	margin: 0;
+	font-size: 18px;
+	color: #002b08;
+}
+
+.block9 .block-txt .green-text a{
+	color: #ffffff;
+	text-decoration: none;
 }
 
 
@@ -835,6 +883,22 @@ body{
 
 .footer .right-side{
 	float: right;
+}
+
+@media only screen and (max-width : 1600px)  { 
+	
+}
+
+@media only screen and (max-width : 1440px)  { 
+	
+}
+
+@media only screen and (max-width : 1280px)  { 
+	
+}
+
+@media only screen and (max-width : 1024px)  { 
+	
 }
 
 
