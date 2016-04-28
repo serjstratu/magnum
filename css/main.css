@@ -237,8 +237,6 @@ body{
     background: url("../images/block2.jpg") no-repeat top center;
 }
 
-
-
 .block2 .list{
     width: 100%;
     margin: 20px 0 0 0;
@@ -305,7 +303,7 @@ body{
 }
 
 .block3 .list{
-    margin: 800px 0 0 0;
+    margin: 840px 0 0 0;
 }
 
 .block3 .list .item{
@@ -313,6 +311,26 @@ body{
     font-size: 35px;
     padding-left: 48px;
     color: #ffffff;
+    font-family: 'gotham_htfbook';
+    margin: 0 0 16px 0;
+}
+
+.block3 .list .item span{
+    font-family: 'gotham_htfmedium';
+}
+
+.block3 .list .item.item-big{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0 0 16px -12px;
+    background: url("../images/icon-check-big.png") no-repeat center left;
+    padding-left: 60px;
+    font-family: 'gotham_htfbold';
+}
+
+.block3 .list .item.item-big span{
+    color: #ea0c0b;
+    font-family: 'gotham_htfbold';
 }
 
 /**
