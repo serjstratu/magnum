@@ -403,12 +403,13 @@ body{
 }
 
 .block5 .title{
-	font-family: 'gotham_htfbold';
-	font-size: 122px;
-	line-height: 85px;
-	text-align: center;
-	color: #ffffff;
-	padding: 100px 0 0 0;
+    font-family: 'gotham_htfbold';
+    font-size: 118px;
+    line-height: 85px;
+    text-align: center;
+    color: #ffffff;
+    padding: 100px 0 0 0;
+    text-transform: uppercase;
 }
 
 .block5 .title span{
@@ -420,6 +421,75 @@ body{
 	background: #ea0c0b;
     line-height: 104px;
 }
+
+.block5 .text-area{
+
+}
+
+.block5 .title2{
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'edo_szregular';
+    color: #000000;
+}
+
+.block5 .subtitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'gotham_htfbook';
+}
+
+.block5 .text-area .table{
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    background: #ffffff;
+    font-family: 'gotham_htfmedium';
+}
+
+.block5 .text-area .table.three-row{
+    width: 300px;
+}
+
+.block5 .text-area .table.one-col .line .left{
+    width: 100%;
+}
+
+.block5 .text-area .table .table-title{
+    color: #ff7200;
+    font-size: 18px;
+    padding: 24px 0;
+    text-indent: 20px;
+    font-family: 'gotham_htfbold';
+}
+
+
+.block5 .text-area .table .line{
+    font-size: 20px;
+    border-bottom: 1px solid #b2b2b2;
+    display: flex;
+    text-indent: 20px;
+}
+
+.block5 .text-area .table .line:last-child{
+    border: none;
+}
+
+.block5 .text-area .table .line .left{
+    padding: 24px 0;
+    width: 50%;
+    display: flex;
+}
+
+.block5 .text-area .table .line .right{
+    width: 50%;
+    padding: 24px 0;
+    background: #e7e7e7;
+    display: flex;
+}
+
 
 /**
  * Block 6
@@ -438,34 +508,45 @@ body{
 	min-height: 800px;
 	background: #000000 url("../images/box-gun.jpg") no-repeat top center;
 	border: 20px solid #ffffff;
-	border-radius: 10px;	
+	border-radius: 10px;
+    position: relative;
 }
 
 .block6 .box .boxtitle{
-	font-family: 'gotham_htfbold';
-	font-size: 120px;
-	line-height: 80px;
-	color: #ffffff;
+    font-family: 'gotham_htfbold';
+    font-size: 120px;
+    line-height: 80px;
+    color: #ffffff;
+    margin: 70px 0 0 40px;
+    text-transform: uppercase;
 }
 
 .block6 .box .boxtitle span{
-	display: inline-block;
-	background: #ea0c0b;
+    display: inline-block;
+    background: #ea0c0b;
+    line-height: 100px;
 }
 
 .block6 .box  .list{
 	width: 100%;
+    margin: 72px 0 0 0
 }
 
-.block6 .box  .item{
+.block6 .box .item{
 	width: 280px;
 	float: left;
 	font-family: 'gotham_htfmedium';
 	font-size: 24px;
 	padding: 0 0 0 50px;
-	margin: 0 0 0 50px;
+	margin: 0 0 20px 50px;
 	color: #ffffff;
 	background: url("../images/target.png") no-repeat center left;
+}
+
+.block6 .box .decoration{
+    position: absolute;
+    right: 60px;
+    margin: -40px 0 0 0;
 }
 
 /**
