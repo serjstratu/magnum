@@ -1220,6 +1220,143 @@ body{
 	float: right;
 }
 
+
+
+/**
+ * Order Page
+ * -----------------------------------------------------------------------------
+ */
+
+.order-bg{
+    background: url("../images/order.jpg") no-repeat top center;
+}
+
+.order{
+    width: 100%;
+}
+
+.order .title{
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'gotham_htfbook';
+    text-align: center;
+    color: #ffffff;
+    padding: 80px 0 0 0;
+}
+
+.order .title span{
+    display: inline-block;
+    background: #ea0c0b;
+    font-family: 'gotham_htfbold';
+}
+
+.order .form{
+    position: relative;
+    background: #ffffff;
+    max-width: 960px;
+    margin: 100px 0 0 0;
+}
+
+.order .form .form-wrap{
+    padding: 0 100px;
+}
+
+.order .form .form-wrap .form-title{
+    font-size: 28px;
+    line-height: 1;
+    font-family: 'gotham_htfmedium';
+    color: #111111;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.order .form .form-wrap .line{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.order .form .form-wrap input[type="text"], .order .form .form-wrap input[type="email"], .order .form .form-wrap input[type="url"]{
+    background: #f2f2f2;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-indent: 24px;
+    color: #b1b1b1;
+    height: 50px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.order .form .form-wrap textarea{
+    background: #f2f2f2;
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    padding: 24px;
+    color: #b1b1b1;
+    height: 120px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.order .form .form-wrap input[type="submit"]{
+    background: #ea0c0b;
+    text-align: center;
+    color: #ffffff;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'gotham_htfbold';
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.order .form .form-wrap .line .left{
+    width: 530px;
+    float: left;
+}
+
+.order .form .form-wrap .line .right{
+    float: right;
+}
+
+.order .form .form-wrap .order-button{
+    position: relative;
+    bottom: -50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.order .form .form-wrap .order-button button{
+    background: #000000;
+    font-size: 40px;
+    color: #ff7200;
+    font-family: 'gotham_htfbold';
+    text-transform: uppercase;
+    border: 0 none;
+    width: 600px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.order .bullet1, .order .bullet2, .order .bullet3, .order .bullet4{
+    background: url("../images/bullet-black.png") no-repeat;
+    width: 120px;
+    height: 117px;
+    position: absolute;
+}
+
+.order .bullet1{
+    top: 36px;
+}
+
+
 @media only screen and (max-width : 1600px)  {
     .block9 .gun{
         right: 100px;
