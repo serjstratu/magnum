@@ -26,6 +26,39 @@ a img{
     margin: 0 auto;
     max-width: 960px;
 }
+
+.large-sparkle {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-width: 570px;
+}
+
+.large-sparkle .sparkle {
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    background: url('../images/large-sparkle.png') no-repeat center center;
+}
+
+.large-sparkle2 {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    max-width: 430px;
+}
+
+.large-sparkle2 .sparkle {
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: -120px;
+    background: url('../images/large-sparkle.png') no-repeat center center;
+}
+
 /**
  * Fonts
  * -----------------------------------------------------------------------------
