@@ -447,7 +447,7 @@ body{
     line-height: 85px;
     text-align: center;
     color: #ffffff;
-    padding: 100px 0 0 0;
+    padding: 92px 0 0 0;
     text-transform: uppercase;
 }
 
@@ -461,9 +461,39 @@ body{
     line-height: 104px;
 }
 
-.block5 .text-area{
-
+.block5 .level1 .table{
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
 }
+
+.block5 .level1 .table .line{
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'gotham_htfmedium';
+    border-bottom: 1px solid #b2b2b2;
+    line-height: 1;
+}
+
+.block5 .level1 .table .line .left{
+    background: #ffffff;
+    float: left;
+    width: 50%;
+    padding: 18px 8px 18px 24px;
+    box-sizing: border-box;
+}
+
+.block5 .level1 .table .line .right{
+    background: #e7e7e7;
+    float: left;
+    width: 50%;
+    padding: 18px 4px 18px 34px;
+    box-sizing: border-box;
+}
+
 
 .block5 .title2{
     margin: 50px 0 0 0;
@@ -527,14 +557,96 @@ body{
 }
 
 
+.block5 .level2 .col{
+    float: left;
+    width: 307px;
+}
+
+.block5 .level2 .col-middle{
+    margin: 0 17px 0 16px;
+}
+
+.block5 .level2 .table-one-column{
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.block5 .level2 .table-one-column .line{
+    background: #ffffff;
+    width: 100%;
+    font-family: 'gotham_htfmedium';
+    border-bottom: 1px solid #b2b2b2;
+    padding: 12px 18px;
+    line-height: 1;
+}
+
+
+.block5 .level2 .table-two-column{
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.block5 .level2 .table-two-column .table-title, .block5 .level2 .table-one-column .table-title{
+    color: #ff7200;
+    font-family: 'gotham_htfbold';
+    background: #ffffff;
+    padding: 5px 0 23px;
+    display: inline-block;
+}
+
+.block5 .level2 .table-two-column .line{
+    background: #ffffff;
+    width: 100%;
+    font-family: 'gotham_htfmedium';
+    border-bottom: 1px solid #b2b2b2;
+    line-height: 1;
+    display: table;
+}
+
+.block5 .level2 .table-two-column .line .left{
+    background: #ffffff;
+    width: auto;
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 15px 18px;
+}
+
+.block5 .level2 .table-two-column .line .right{
+    background: #e7e7e7;
+    width: 55px;
+    box-sizing: border-box;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.block5 .level2 .table-two-column .line .right.bottom{
+    vertical-align: bottom;
+    padding-bottom: 16px;
+}
+
+
 .block5 .level3 .left{
     float: left;
     width: 50%;
+    padding-right: 19px;
+    box-sizing: border-box;
 }
 
 .block5 .level3 .right{
     float: left;
     width: 50%;
+    box-sizing: border-box;
 }
 
 .block5 .level3 .title-lv3{
@@ -573,6 +685,46 @@ body{
     color: #000000;
 }
 
+
+.block5 .level3 .table-two-column{
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 16px 0 0 0;
+}
+
+
+.block5 .level3 .table-two-column .line{
+    background: #ffffff;
+    width: 100%;
+    font-family: 'gotham_htfmedium';
+    border-bottom: 1px solid #b2b2b2;
+    line-height: 1;
+    display: table;
+}
+
+.block5 .level3 .table-two-column .line .left{
+    background: #ffffff;
+    width: auto;
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 13px 21px;
+    float: none;
+}
+
+.block5 .level3 .table-two-column .line .right{
+    background: #e7e7e7;
+    width: 75px;
+    box-sizing: border-box;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: none;
+}
+
 .block5 .level4{
     width: 100%;
     padding: 40px 0 0 0;
@@ -602,6 +754,45 @@ body{
 
 .block5 .level4 .left .title-lv42 span{
     font-size: 55px;
+}
+
+
+.block5 .level4 .table-two-column{
+    width: 97%;
+    font-size: 18px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.block5 .level4 .table-two-column .line{
+    background: #ffffff;
+    width: 100%;
+    font-family: 'gotham_htfmedium';
+    border-bottom: 1px solid #b2b2b2;
+    line-height: 1;
+    display: table;
+}
+
+.block5 .level4 .table-two-column .line .left{
+    background: #ffffff;
+    width: auto;
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 21px 27px;
+    float: none;
+}
+
+.block5 .level4 .table-two-column .line .right{
+    background: #e7e7e7;
+    width: 75px;
+    box-sizing: border-box;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: none;
 }
 
 .block5 .level4 .right{
