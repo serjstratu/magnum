@@ -48,17 +48,19 @@ a img{
     overflow: hidden;
     display: block;
     position: relative;
-    max-width: 430px;
+    max-width: 100%;
 }
 
 .large-sparkle2 .sparkle {
     width: 120px;
-    height: 90px;
+    height: 120px;
     position: absolute;
     bottom: 0;
     left: -120px;
     background: url('../images/large-sparkle.png') no-repeat center center;
 }
+
+
 
 /**
  * Fonts
@@ -1539,7 +1541,7 @@ body{
     box-sizing: border-box;
 }
 
-.order .form .form-wrap input[type="submit"]{
+.order .form button{
     background: #ea0c0b;
     text-align: center;
     color: #ffffff;
@@ -1578,6 +1580,12 @@ body{
     width: 619px;
     height: 115px;
     cursor: pointer;
+}
+
+.order .form .form-wrap .order-button button span{
+    display: inline-block;
+    height: 115px;
+    line-height: 110px;
 }
 
 .order .bullet1, .order .bullet2, .order .bullet3, .order .bullet4, .order .bullet5{
@@ -1631,6 +1639,11 @@ body{
     left: -175px;
 }
 
+.order .button{
+    display: inline-block;
+    width: 620px;
+    height: 115px;
+}
 
 .order-bg .footer{
     padding: 80px 0 60px 0;

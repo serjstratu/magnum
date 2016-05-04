@@ -13,7 +13,10 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
     <script src="js/modernizr-2.8.3.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body class="order-bg">
 
@@ -69,12 +72,12 @@
                     </div>
                     <div class="line coupon">
                         <div class="left"><input type="text" placeholder="Coupon Code" /></div>
-                        <div class="right"><input type="submit" value="CHECK COUPON" /></div>
+                        <div class="right"><button id="check" class="promo-button">CHECK COUPON</button></div>
                     </div>
 
 
                     <div class="order-button">
-                        <button id="send">Get my Magnum Now</button>
+                        <button id="send"><span class="promo-button2">Get my Magnum Now</span></button>
                     </div>
 
                 </form>
