@@ -25,6 +25,7 @@ a img{
 .container{
     margin: 0 auto;
     max-width: 960px;
+    position: relative;
 }
 
 .large-sparkle {
@@ -1385,6 +1386,7 @@ body{
  */
 
 .footer{
+    float: left;
     width: 100%;
 	padding: 80px 0 0 0;
 }
@@ -1464,6 +1466,8 @@ body{
 
 .order{
     width: 100%;
+    padding-bottom: 200px;
+    overflow: hidden;
 }
 
 .order .title{
@@ -1565,18 +1569,18 @@ body{
 }
 
 .order .form .form-wrap .order-button button{
-    background: #000000;
+    background: url("../images/order-button.png") no-repeat top center;
     font-size: 40px;
-    color: #ff7200;
+    color: #ffffff;
     font-family: 'gotham_htfbold';
     text-transform: uppercase;
     border: 0 none;
-    width: 600px;
-    height: 110px;
+    width: 619px;
+    height: 115px;
     cursor: pointer;
 }
 
-.order .bullet1, .order .bullet2, .order .bullet3, .order .bullet4{
+.order .bullet1, .order .bullet2, .order .bullet3, .order .bullet4, .order .bullet5{
     background: url("../images/bullet-black.png") no-repeat;
     width: 120px;
     height: 117px;
@@ -1584,7 +1588,52 @@ body{
 }
 
 .order .bullet1{
-    top: 36px;
+    top: -15px;
+    right: -66px;
+}
+
+.order .bullet2{
+    top: 254px;
+    left: 3px;
+    transform: rotate(54deg);
+}
+
+.order .bullet3{
+    top: 508px;
+    right: -70px;
+}
+
+.order .bullet4{
+    top: 780px;
+    left: -68px;
+}
+
+.order .bullet5{
+    top: 1004px;
+    right: -17px;
+}
+
+.order .bullet6{
+    background: url("../images/order-bullet.png") no-repeat;
+    width: 396px;
+    height: 478px;
+    position: absolute;
+    top: 190px;
+    right: -375px;
+}
+
+.order .bullet7{
+    background: url("../images/order-bullet2.png") no-repeat;
+    width: 396px;
+    height: 478px;
+    position: absolute;
+    top: 490px;
+    left: -175px;
+}
+
+
+.order-bg .footer{
+    padding: 80px 0 60px 0;
 }
 
 
@@ -1616,6 +1665,10 @@ body{
     }
 
     .block5 .level1 .bullet, .block5 .level2 .bullet1, .block5 .level2 .bullet2, .block5 .level2 .bullet3, .block5 .level2 .bullet4, .block5 .level2 .bullet5, .block5 .level2 .bullet6{
+        display: none;
+    }
+
+    .order .bullet1, .order .bullet2, .order .bullet3, .order .bullet4, .order .bullet5, .order .bullet6, .order .bullet7{
         display: none;
     }
 
