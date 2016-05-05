@@ -157,9 +157,9 @@ body{
 
 .head .info{
     float: right;
-    font-family: 'gotham_htfmedium';
+    font-family: 'gotham_htfbook';
     color: #ffffff;
-    margin: 45px 40px 0 0;
+    margin: 40px 40px 0 0;
 }
 
 .head .info a{
@@ -263,8 +263,10 @@ body{
 }
 
 .block1 .bottom-title span{
-    font-size: 100px;
-    line-height: 85px;
+	font-size: 100px;
+	line-height: 85px;
+	display: inline-block;
+	margin: 0 0 0 -10px;
 }
 
 
@@ -298,17 +300,23 @@ body{
 }
 
 
-.block2 .list .item .icon.icon1{ width: 144px;}
+.block2 .list .item .icon.icon1{ width: 136px;}
 .block2 .list .item .icon.icon2{ width: 130px;}
 .block2 .list .item .icon.icon3{ width: 164px;}
 .block2 .list .item .icon.icon4{ width: 192px;}
 
 
 .block2 .list .item .txt{
-    display: inline-block;
-    font-size: 30px;
-    font-family: 'gotham_htfmedium';
-    color: #ffffff;
+	display: inline-block;
+	font-size: 30px;
+	font-family: 'gotham_htfmedium';
+	color: #ffffff;
+	vertical-align: top;
+	line-height: 40px;
+}
+
+.block2 .list .item .text-top{
+	margin-top: -12px;
 }
 
 
@@ -336,12 +344,13 @@ body{
 }
 
 .block3 .title{
-    font-size: 135px;
-    line-height: 90px;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'gotham_htfbold';
-    padding: 64px 0 0 0;
+	font-size: 132px;
+	line-height: 90px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'gotham_htfbold';
+	padding: 64px 0 0 0;
+	text-transform: uppercase;
 }
 
 .block3 .list{
@@ -816,12 +825,18 @@ body{
     -o-transform: rotate(7deg);
     writing-mode: lr-tb;
 }
-.block5 .level4 .right .title-lv43 span{
+.block5 .level4 .right .title-lv43 span.style1{
     display: inline-block;
     font-size: 140px;
     line-height: 80px;
     font-family: 'gotham_htfbold';
     color: #ffdf00;
+}
+
+.block5 .level4 .right .title-lv43 span.style2{
+	display: inline-block;
+	font-size: 32px;
+	line-height: 40px;
 }
 
 .block5 .level4 .right .cta-area{
@@ -888,7 +903,7 @@ body{
 
 .block6 .box  .list{
 	width: 100%;
-    margin: 72px 0 0 0
+    margin: 60px 0 0 0;
 }
 
 .block6 .box .item{
@@ -897,7 +912,7 @@ body{
 	font-family: 'gotham_htfmedium';
 	font-size: 24px;
 	padding: 0 0 0 50px;
-	margin: 0 0 20px 50px;
+	margin: 0 0 28px 50px;
 	color: #ffffff;
 	background: url("../images/target.png") no-repeat center left;
 }
@@ -905,7 +920,7 @@ body{
 .block6 .box .decoration{
     position: absolute;
     right: 60px;
-    margin: -40px 0 0 0;
+    margin: -70px 0 0 0;
 }
 
 .block6 .bottom{
@@ -1177,6 +1192,7 @@ body{
 	text-decoration: none;
 	background: url("../images/cta-button.png") no-repeat;
 	font-family: 'gotham_htfbold';
+	text-transform: uppercase;
 }
 
 
@@ -1231,17 +1247,17 @@ body{
     font-style: italic;
     color: #ffffff;
     text-align: right;
-    width: 370px;
+    width: 376px;
     margin: 32px 0 0 0;
 }
 
 .block9 .block-txt .green-text{
-    background: rgba(0,180,33,0.75);
+    background: url("../images/block9-green.png") repeat-x;
     float: left;
     width: 370px;
     min-height: 144px;
     font-family: 'Open Sans', sans-serif;
-    margin: -20px 0 0 30px;
+    margin: -38px 0 0 30px;
     border-radius: 10px;
     padding: 20px 0 0 0;
 }
@@ -1250,14 +1266,14 @@ body{
     margin: 0;
     font-size: 18px;
     color: #002b08;
-    padding: 13px 24px;
+    padding: 32px 24px 0 24px;
     font-style: italic;
 }
 
 .block9 .block-txt .green-text a{
 	color: #ffffff;
     display: inline-block;
-    padding: 12px 0 0 0;
+    padding: 10px 0 0 0;
     font-size: 26px;
 	text-decoration: none;
 }
@@ -1425,13 +1441,13 @@ body{
 }
 
 .footer .left-side .icons .vk{
-	background: url('../images/footer-icons-sprite.png') no-repeat -54px 0;
+	background: url('../images/footer-icons-sprite.png') no-repeat -54px -24px;
 	width: 20px;
 	height: 20px;
 }
 
 .footer .left-side .icons .vk:hover{
-	background: url('../images/footer-icons-sprite.png') no-repeat -54px -24px;
+	background: url('../images/footer-icons-sprite.png') no-repeat -54px 0;
 }
 
 .footer .left-side .icons .fb{
@@ -1499,7 +1515,7 @@ body{
 }
 
 .order .form .form-wrap .form-title{
-    font-size: 28px;
+    font-size: 29.6px;
     line-height: 1;
     font-family: 'gotham_htfmedium';
     color: #111111;
