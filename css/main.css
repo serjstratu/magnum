@@ -1277,6 +1277,7 @@ body{
     padding: 10px 0 0 0;
     font-size: 26px;
 	text-decoration: none;
+	font-style: normal;
 }
 
 
@@ -1321,13 +1322,13 @@ body{
 }
 
 .block9 .block-container .text-conteiner2{
-    max-width: 580px;
-    font-size: 18px;
-    line-height: 26px;
-    color: #eeeeee;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    padding: 0 0 0 50px;
+	max-width: 630px;
+	font-size: 20px;
+	line-height: 26px;
+	color: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	padding: 0 0 0 50px;
 }
 
 .block9 .gun{
@@ -1486,7 +1487,6 @@ body{
 .order{
     width: 100%;
     padding-bottom: 200px;
-    overflow: hidden;
 }
 
 .order .title{
